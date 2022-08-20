@@ -8,13 +8,13 @@
 class Memory
 {
 private:
-	uint16_t *memory_;
+    uint16_t *memory_;
 
 public:
     Memory(); // -- constructor --
     ~Memory(); // -- destructor--
 
-	// -- push in memory --
+    // -- push in memory --
     void push_memory(int32_t num, uint16_t adr);
     void push_memory(uint32_t num, uint16_t adr);
     void push_memory(float num, uint16_t adr);
