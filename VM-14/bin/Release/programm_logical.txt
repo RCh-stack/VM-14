@@ -1,0 +1,23 @@
+p 0
+
+u 12
+u 8		// loading values into registers
+u 0
+u 1
+
+c 13 0 1 0	// 0 and 1, result - to 0 memory cell
+c 14 1 2 1	// 1 or 2,  result - to 1 memory cell
+c 15 2 3 2	// 2 xor 3, result - to 2 memory cell
+c 16 0 0 3	// not 0 (!0), result - to 3 memory cell
+
+c 10 0 0 0
+c 10 0 0 1	// output results
+c 10 0 0 2
+c 10 0 0 3
+	
+s 0		// stop the processor
+
+
+
+
+

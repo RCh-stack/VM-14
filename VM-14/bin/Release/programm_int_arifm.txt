@@ -1,0 +1,28 @@
+p 0
+
+i 11
+i 23		// loading values into registers
+i 129
+i 10
+
+c 1 0 1 0	// add 0 and 1 register and put in 0 memory cell
+c 2 2 1 1	// subtract from 2 1 register and place in 1 memory cell
+c 3 0 3 2	// multiply 0 and 3 register and put in 2 memory cell
+c 4 2 3 3	// divide 2 by 3 register and put in 3 memory cell
+
+c 10 0 0 0
+c 10 0 0 1	// output results
+c 10 0 0 2
+c 10 0 0 3
+
+s 0		// stop the processor
+
+
+
+
+
+
+
+
+
+

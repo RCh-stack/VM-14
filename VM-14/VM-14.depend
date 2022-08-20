@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1614587189 source:c:\users\user\desktop\vm-14\main.cpp
+	"Registers.h"
+	"Memory.cpp"
+	"Processor.cpp"
+	"Command.cpp"
+
+1614587180 c:\users\user\desktop\vm-14\operators.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+	<vector>
+
+1614587162 c:\users\user\desktop\vm-14\registers.h
+	<cinttypes>
+
+1614587239 c:\users\user\desktop\vm-14\memory.h
+	<iostream>
+	<string>
+	<fstream>
+	<cinttypes>
+
+1613030792 c:\users\user\desktop\vm-14\loader.h
+	<vector>
+	<string>
+	<fstream>
+	"Operators.h"
+	"Registers.h"
+	"Memory.h"
+	"Label.h"
+
+1614513125 c:\users\user\desktop\vm-14\label.h
+	<iostream>
+	<map>
+	<string>
+	"Memory.h"
+
+1614587102 c:\users\user\desktop\vm-14\operators.cpp
+	"Operators.h"
+
+1614518959 c:\users\user\desktop\vm-14\registers.cpp
+	"Registers.h"
+
+1614587073 c:\users\user\desktop\vm-14\memory.cpp
+	"Memory.h"
+
+1614323472 c:\users\user\desktop\vm-14\loader.cpp
+	"Loader.h"
+
+1614512373 c:\users\user\desktop\vm-14\label.cpp
+	"Label.h"
+
+1614327613 c:\users\user\desktop\vm-14\define.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<map>
+	<string>
+	<stdlib.h>
+	"define.h"
+
+1614327649 c:\users\user\desktop\vm-14\define.h
+
+1614592793 c:\users\user\desktop\vm-14\processor.cpp
+	"Processor.h"
+
+1614592854 c:\users\user\desktop\vm-14\processor.h
+	"Memory.h"
+	"Registers.h"
+	"Command.h"
+
+1614583449 c:\users\user\desktop\vm-14\command.h
+
+1614597556 c:\users\user\desktop\vm-14\command.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<map>
+	<cstring>
+	<string>
+	<stdlib.h>
+	"Memory.h"
+	"Command.h"
+	"Processor.h"
+
+1614523415 c:\users\user\desktop\vm-14\types.h
+
