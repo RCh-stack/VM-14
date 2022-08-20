@@ -2,10 +2,10 @@
 
 struct command32
 {
-	uint16_t opcode : 8;
-	uint16_t r1 : 4;
-	uint16_t r2 : 4;
-	uint16_t address : 16;
+    uint16_t opcode : 8;
+    uint16_t r1 : 4;
+    uint16_t r2 : 4;
+    uint16_t address : 16;
 };
 
 class Command
