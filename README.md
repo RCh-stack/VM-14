@@ -1,4 +1,4 @@
-# Interpreter virtual machine VM-14
+# Interpreter for virtual machine VM-14
 
 ## Short description
 
